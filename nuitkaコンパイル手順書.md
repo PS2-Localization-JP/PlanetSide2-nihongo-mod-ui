@@ -19,11 +19,11 @@
     *   ターミナルで以下のコマンドを実行してください。
 
         ```
-        python -m nuitka --onefile --onefile-as-archive --windows-console-mode=disable --enable-plugin=pyside6 --windows-icon-from-ico=resources/ps2jpmod.ico --include-data-files=resources/ps2jpmod.ico=resources/ps2jpmod.ico --output-dir=%OUTPUT_DIR% --output-filename=PS2JPMod_unsigned --clean-cache=all --remove-output main.py
+        python -m nuitka --onefile --onefile-as-archive --windows-console-mode=disable --enable-plugin=pyside6 --windows-icon-from-ico=resources/ps2jpmod.ico --include-data-files=resources/ps2jpmod.ico=resources/ps2jpmod.ico --output-dir=output --output-filename=PS2JPMod_unsigned --clean-cache=all --remove-output main.py
         ```
 
         ```
-        python -m nuitka --onefile --onefile-as-archive --windows-console-mode=force --enable-plugin=pyside6 --windows-icon-from-ico=resources/ps2jpmod.ico --include-data-files=resources/ps2jpmod.ico=resources/ps2jpmod.ico --output-dir=%OUTPUT_DIR% --output-filename=PS2JPMod_unsigned --clean-cache=all --remove-output main.py
+        python -m nuitka --onefile --onefile-as-archive --windows-console-mode=force --enable-plugin=pyside6 --windows-icon-from-ico=resources/ps2jpmod.ico --include-data-files=resources/ps2jpmod.ico=resources/ps2jpmod.ico --output-dir=output --output-filename=PS2JPMod_unsigned --clean-cache=all --remove-output main.py
         ```
 
         *   `--standalone`: 依存関係を全部含める
