@@ -1,0 +1,6 @@
+PySide6==6.8.1.1
+requests==2.32.3
+packaging==24.2
+beautifulsoup4==4.13.3
+nuitka
+Pillow
